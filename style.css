@@ -21,6 +21,7 @@ body {
 /* Header */
 .main-header {
   background-color: #f7f7f7;
+  background-color: orangered;
   padding: 20px 40px;
   margin-bottom: 60px;
 }
@@ -208,4 +209,17 @@ h1 {
 
 nav {
   float: right;
+}
+
+/* .clear {      empty div after nav
+  clear: both;
+} */
+
+/* clearfix hack - same as top, but better */
+/* we don't add empty div in the HTML - we create it manually */
+/* ::after creates a child element at the end of the parent */
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: block;
 }

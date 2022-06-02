@@ -189,3 +189,23 @@ button {
 #copyright {
   font-size: 16px;
 }
+
+/* Floats */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}

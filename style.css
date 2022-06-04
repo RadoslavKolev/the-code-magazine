@@ -54,9 +54,6 @@ a:hover {
 }
 
 /* Main Content */
-article {
-  /* margin-bottom: 60px; */
-}
 
 .post-header {
   margin-bottom: 40px;
@@ -306,14 +303,6 @@ aside {
 .main-header {
   grid-column: 1 / -1;    /* span to the end */
   margin-bottom: 0;
-}
-
-article {
-
-}
-
-aside {
-  
 }
 
 footer {
